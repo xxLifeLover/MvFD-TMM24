@@ -1,0 +1,2 @@
+import os
+os.system('python main.py --data_set CAL20  --w_rec 1. --w_ort 0. --w_coe 0.0001 --w_mi 0.1 --w_ali 0.1 --w_mcr 0.1 --device 4 --channels -1 200 100 --dim_feature 60  --model MvFD  --lr_pre 0.001 --lr_ft 0.001 --epochs 20 --epochs_pre 2002 --epochs2 200  --validate_every 10 --premodel_epoch 2000')
